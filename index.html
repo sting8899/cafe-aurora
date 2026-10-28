@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFE AURORA</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="icono_cafe">
+            <div class="icono">
+                <i class="bi bi-cup-hot"></i>
+            </div>
+            <div">
+                <h1>Café Aurora</h1>
+                <p>Panel Administrativo</p>
+        </div>
+        </div>
+
+        <div class="usuario_botton">
+
+            <i class="bi bi-person-circle"></i>
+            <div>
+                <strong>Jander Marmol</strong>
+                <p>Administrador</p>
+            </div>
+            <button class="boton_user">
+                <i class="bi bi-chevron-down"></i>
+            </button>
+        </div>
+    </header>
+    
+    <main class="dashboard">
+
+        <section class="hero_section">
+            <div class="hero_copy">
+                <span class="eyebrow">RESUMEN GENERAL</span>
+                <h2 id="summary_title">Así está funcionando el negocio</h2>
+                <p class="descripcion">
+                    Consulta los indicadores claves y dectecta cambios en un solo lugar
+                </p>
+            </div>
+
+            <div class="hero_action">
+                <select name="" id="" class="control_select">
+                   <option value="">Este mes</option>
+                   <option value="">Este trimestre</option>
+                   <option value="">Este año</option>
+                </select>
+                <button class="export_button">
+                    <i class="bi bi-download"></i>
+                    <p class="label">Exportar</p>
+                </button>
+            </div>
+        </section>
+
+        <section class="kpi_grid">
+            <article class="kpi_card">
+                <div class="kpi_head">
+                <span class="kpi_icon">
+                    <i class="bi bi-receipt"></i>
+                </span>
+                <span class="trend positive">
+                    <p class="tendencia">
+                        ↗︎ +12,5%
+                    </p>
+                </span>
+                </div>
+                <h3>Ventas Totales</h3>
+                <p class="kpi_value">$ 18.450.000</p>
+                <p class="small">Vs periodo anterior</p>
+            </article>
+            <article class="kpi_card">
+                <div class="kpi_head">
+                    <span class="kpi_icon">
+                        <i class="bi bi-diamond"></i>
+                    </span>
+                    <span class="trend positive">
+                        <p class="tendencia">
+                            ↗︎ + 8,9%
+                        </p>
+                    </span>
+                </div>
+                <h3>Productos vendidos</h3>
+                <p class="kpi_value">1.284</p>
+                <p class="small">92 productos por día</p>
+                
+            </article>
+             <article class="kpi_card">
+                <div class="kpi_head">
+                    <span class="kpi_icon">
+                        <i class="bi bi-bag-fill"></i>
+                    </span>
+                    <span class="trend positive">
+                        <p class="tendencia">
+                            ↗ +5,7%
+                        </p>
+                    </span>
+                </div>
+                <h3>Reservas</h3>
+                <p class="kpi_value">146</p>
+                <p class="small">118 completadas</p>
+                
+            </article>
+             <article class="kpi_card">
+                <div class="kpi_head">
+                    <span class="kpi_icon">
+                        <i class="bi bi-basket-fill"></i>
+                    </span>
+                    <span class="trend negative">
+                        <p class="tendencia">
+                            ↘ −2,1%
+                        </p>
+                    </span>
+                </div>
+                <h3>Pedidos y domicilios</h3>
+                <p class="kpi_value">318</p>
+                <p class="small">23 pedidos por día</p>
+                
+            </article>
+        </section>
+    
+    </main>
+
+</body>
+
+</html>

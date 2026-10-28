@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+header {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid  #ECE7E2;
+    padding: 0px 20px ;
+    height: 56px;
+}
+
+body {
+    background: #f7f7f7;
+    margin: 0;
+     font-family: "Google Sans", sans-serif;
+}
+
+.icono_cafe {
+    display: flex;
+    align-items: center;
+    gap: 8px ;
+}
+
+.usuario_botton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icono_cafe h1 {
+    font-size: 18px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.icono_cafe p {
+    color: rgb(4, 7, 7);
+    margin: 0px;
+
+}
+.icono {
+    border-radius: 9px;
+    background: #402d26;
+    height: 34px;
+    width: 34px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.icono_cafe i {
+color: #FFFFFF;
+font-size: 15px;
+}
+.bi-person-circle {
+    font-size: 28px;
+    color: #d5a24d;  
+}
+
+.usuario_botton p {
+    margin: 0px;
+}
+.boton_user  {
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+.boton_user i {
+    color: #4f4540;
+}
+
+/* estilos de las seccion 1 del main  */
+
+
+.dashboard {
+    padding: 31px 20px 45px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.eyebrow {
+    color: #b58943;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#summary_title {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.descripcion {
+    margin: 0;
+}
+.hero_copy {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.hero_action {
+    display: flex;
+    gap: 10px;
+    height: 35px;
+}
+.control_select {
+    padding: 0px 13px ;
+    border-radius: 9px;
+    border-color: #e6dfd8;
+    font-weight: bold;
+    color: #4a413c;
+}
+.export_button  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+    border: none;
+    background: #3a2a23;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/* estilo de las seccion 2/ */
+
+.kpi_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+   
+}
+.kpi_card {
+    border: 2px solid #ebe6e0;
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.kpi_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.kpi_icon {
+    background: #faf4ea;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.kpi_icon i {
+    color: #c49447;
+}
+
+.trend {
+    background: #f6f3ed;
+    border-radius: 7px;
+    width: 58px;
+    height: 21px;
+    padding: 3px 7px;
+}
+
+.tendencia {
+    margin: 0px;
+    font-size: 12px;
+
+}
+.positive p {
+    color: green;
+    font-weight: bold;
+}
+
+h3 {
+   font-size: 13px;
+   font-weight: normal
+}
+
+.kpi_value {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.trend .negative {
+    color:#BB8843 ;
+    font-weight: normal;
+}
+
+.negative p {
+color: #BB8843;
+font-weight: bold;
+}
