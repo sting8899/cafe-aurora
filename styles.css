@@ -124,12 +124,22 @@ gap: 15px;
     background: #3a2a23;
     color: #FFFFFF;
     font-weight: bold;
+    cursor: pointer;
+    
 }
+.export_button:hover {
+    background: #FFFFFF;
+    color: #3a2a23;
+    border: 2px solid; 
+}
+
+
 /* estilo de las seccion 2/ */
 
 .kpi_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
 
    
 }
@@ -137,6 +147,12 @@ gap: 15px;
     border: 2px solid #ebe6e0;
     border-radius: 14px;
     padding: 14px;
+    transition: all 0.3s ease;
+}
+
+.kpi_card:hover {
+    border-color: #c49447;
+    transform: translateY(-4px);
 }
 
 .kpi_head {
