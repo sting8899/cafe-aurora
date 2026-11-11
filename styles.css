@@ -219,3 +219,58 @@ h3 {
 color: #BB8843;
 font-weight: bold;
 }
+
+/* estilos de la seccion 3 */
+
+/* cabecera */
+
+.products-panel {
+    border-radius: 8px;
+    border: 2px solid #ebe6e0;
+    padding: 17px;
+    background: #ffffff;
+}
+
+.products-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.heading-copy h3 {
+    font-size: 18px;
+    color: #402d26;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.heading-copy p {
+    margin: 5px 0px 0px;
+    color: #9b928c;
+    font-size: 12px;
+}
+
+.link {
+    color: #5b4e46;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* estilos de la tabla */
+
+.table-wrap {
+    height: 200px;
+    overflow-x: auto;
+    
+}
+.products-table {
+    width: 100%;
+    min-width: 580px;
+}
